@@ -8,10 +8,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 public class Logintests {
     WebDriver driver;
+    Map<String,String> myMap = new HashMap<String,String>();
 
     @BeforeMethod
     public void setUp(){
