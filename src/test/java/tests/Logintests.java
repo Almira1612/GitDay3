@@ -14,6 +14,8 @@ import java.util.concurrent.TimeUnit;
 
 public class Logintests {
     WebDriver driver;
+    Map<String,String> myMap = new HashMap<String,String>();
+
 
     @BeforeMethod
     public void setUp(){
